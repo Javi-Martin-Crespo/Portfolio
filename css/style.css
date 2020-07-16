@@ -62,7 +62,7 @@ h5 {
     color: #EEEFE4;
 }
 
-
+.project-image img {width: 100%;}
 
 
 header {
@@ -85,7 +85,6 @@ header {
     }
 
 
-.project-image img {width: 100%;}
 
 main {
     background-color: #31519F;
@@ -283,6 +282,9 @@ footer {
     }
     .contacto {
         margin-top: 20px;
+        text-decoration: none;
+        border: 1px solid #EEEFE4;
+        padding: 7px 7px;
     }
     main {
         padding-top: 20px;
@@ -299,22 +301,79 @@ footer {
         padding-right: 40px;
     }
     .resumen {
-        font-size: 20px;
+        font-size: 17px;
+        margin-bottom: 20px;
         max-width: 100%;
     }
+    .textos {
+        font-size: 15px;
+        text-align: left;
+    }
     .Proyecto-1 {
-        width: 90%;
+        flex-direction: column;
+        align-items: flex-start;
+        position: relative;
+        padding-top: 20px;
+        padding-bottom: 60px;
     }
     .Proyecto-2 {
-        width: 90%;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        position: relative;
+        padding-top: 20px;
+        padding-bottom: 60px;
     }
-    .project-imgage {
+    .project-image {
         width: 100%;
+        margin-bottom: 20px;
       }
-    .info-proyecto-1 {
-        width: 100%;
+    .nombre-1 {
+        font-size: 40px;
+        left: 0px;
     }
-    .info-proyecto-2 {
+    .nombre-2 {
+        font-size: 40px;
+        right: 0px;
+    }
+    .info-proyecto-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
         width: 100%;
+        margin-left: 0px;
+    }
+
+    .info-proyecto-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        width: 100%;
+        margin-right: 0px;
+    }
+    .textos-proyectos-1 {
+        max-width: 100%;
+        margin-bottom: 0px;
+    }
+    .textos-proyectos-2 {
+        max-width: 100%;
+        margin-bottom: 0px;
+    }
+    .ver-proyectos-1 {
+        font-size: 17px;
+        text-decoration: none;
+        border: 1px solid #EEEFE4;
+        padding: 10px 10px;
+    }
+    .ver-proyectos-2 {
+        font-size: 17px;
+        text-decoration: none;
+        border: 1px solid #EEEFE4;
+        padding: 10px 10px;
+    }
+    .flecha-1 {
+        display: none;
+    }
+    .flecha-2 {
+        display: none;
     }
 }
