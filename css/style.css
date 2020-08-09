@@ -78,6 +78,7 @@ header {
 }
 
     .contacto {
+        font-family: "Montserrat-Regular";
         text-align: right;
         text-decoration: underline;
         cursor: pointer;
@@ -284,7 +285,7 @@ footer {
         margin-top: 20px;
         text-decoration: none;
         border: 1px solid #EEEFE4;
-        padding: 7px 7px;
+        padding: 10px 15px;
     }
     main {
         padding-top: 20px;
