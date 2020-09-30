@@ -188,6 +188,10 @@ main {
         margin-right: 20px;
     }
 
+    .ver-proyectos-1:hover {
+        color: #39D064;
+    }
+
     .ver-proyectos-2 {
         font-family: "Montserrat-Medium";
         font-size: 25px;
@@ -195,6 +199,10 @@ main {
         color: #EEEFE4;
         cursor: pointer;
         margin-left: 20px;
+    }
+
+    .ver-proyectos-2:hover {
+        color: #39D064;
     }
 
     .boton-1 {
